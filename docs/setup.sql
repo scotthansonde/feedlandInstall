@@ -1,4 +1,4 @@
-create database feedland character set utf8mb4 collate utf8mb4_unicode_ci;
+create database if not exists feedland character set utf8mb4 collate utf8mb4_unicode_ci;
 
 use feedland;
 
